@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon-192.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>NASA's Picture of the Day</title>
+  </head>
+  <body>
+    <!-- NASA's Picture of the Day will be shown here -->
+    <header>
+      <div id="current-image-container">
+        <!-- js will handle this part -->
+      </div>
+    </header>
+    <section>
+      <h1>Search for a picture of the day</h1>
+      <form id="search-form">
+        <p style="display: inline">Selete a date 📅</p>
+        <input type="date" name="date" id="search-input" />
+        <button id="search" type="submit">Search</button>
+      </form>
+    </section>
+    <br /><br />
+    <section>
+      <h1 style="display: inline">Previous Searches</h1>
+      <button id="clear" type="button">Clear</button>
+      <ul id="search-history">
+        <!-- js will handle this part -->
+      </ul>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
